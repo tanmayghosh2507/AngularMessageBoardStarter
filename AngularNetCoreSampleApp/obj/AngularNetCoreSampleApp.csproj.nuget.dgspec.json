@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\taghos\\Experiments\\AngularNetCoreSampleApp\\AngularNetCoreSampleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\taghos\\Experiments\\AngularNetCoreSampleApp\\AngularNetCoreSampleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taghos\\Experiments\\AngularNetCoreSampleApp\\AngularNetCoreSampleApp.csproj",
+        "projectName": "AngularNetCoreSampleApp",
+        "projectPath": "C:\\Users\\taghos\\Experiments\\AngularNetCoreSampleApp\\AngularNetCoreSampleApp.csproj",
+        "packagesPath": "C:\\Users\\taghos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taghos\\Experiments\\AngularNetCoreSampleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taghos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://microsoftit.pkgs.visualstudio.com/_packaging/PS.GRM/nuget/v3/index.json": {},
+          "https://microsoftit.pkgs.visualstudio.com/_packaging/SharedPlatforms/nuget/v3/index.json": {},
+          "https://microsoftit.pkgs.visualstudio.com/_packaging/SharedServices/nuget/v3/index.json": {},
+          "https://skype.pkgs.visualstudio.com/DefaultCollection/_packaging/csc/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
