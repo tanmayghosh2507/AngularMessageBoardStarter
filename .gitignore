@@ -1,3 +1,6 @@
 messageboard/frontend/node_modules/
-messageboard/backEnd/*.vs/
-messageboard/backEnd/bin/
+messageboard/backend/bin/
+messageboard/backend/obj/
+AngularNetCoreSampleApp/obj/
+AngularNetCoreSampleApp/bin/
+*.vs/
