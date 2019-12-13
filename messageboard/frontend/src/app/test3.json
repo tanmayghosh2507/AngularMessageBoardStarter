@@ -1,0 +1,71 @@
+{
+  ""_source"": {
+    ""excludes"": [
+      ""MlTextProcessingOutput"",
+      ""SysSieveTags"",
+      ""AlchemyIssuesHidden"",
+      ""UnclassifiableTaxonomies"",
+      ""ABConfigs"",
+      ""AFDFlightInfo"",
+      ""ProcessSessionTelemetry"",
+      ""WatsonCrashData"",
+      ""Telemetry"",
+      ""ResponseHistory"",
+      ""History"",
+      ""AutomatedEmailState"",
+      ""OcvAreasHidden"",
+      ""OcvIssuesHidden""
+    ]
+  },
+  ""size"": 10000,
+  ""query"": {
+    ""bool"": {
+      ""filter"": {
+        ""bool"": {
+          ""must"": [
+            {
+              ""range"": {
+                ""CreatedDate"": {
+                  ""gte"": ""2018-09-01T07:00:00.000Z""
+                }
+              }
+            },
+            {
+              ""terms"": {
+                ""OcvAreas.IdPath"": [
+                    ""c4ea82f5-958e-4227-9524-9e78c2afd492"",
+                    ""ea35576f-a53e-40ea-ba10-72f221bee6d9"",
+                    ""e50e77ba-d17a-4b15-bf38-ee7df3ec684d"",
+                    ""24622766-3e65-4da0-a8f8-f41ac18cd253"",
+                    ""f19d0718-0138-4d5d-931a-87fa58385c68"",
+                    ""958f3de6-ab77-48e8-a793-7296325dd5dc"",
+                    ""31b26f36-c0cd-49e6-b32f-5dd2f93eb21b"",
+                    ""353627a5-c013-4ee0-9c48-9382c9a149ee"",
+                    ""6d545e5b-0429-4ad8-8c20-5e370683c6fa"",
+                    ""1e322747-3b3e-4394-a07e-ed3833f824af"",
+                    ""a405bbec-6e0f-4f8d-b4a0-9aa69a5f2c9f""
+                ]
+              }
+            },
+            {
+              ""terms"": {
+                ""OcvSource.raw"": [
+                    ""Floodgate"",
+                    ""Send-A-Smile""
+                  ]
+                }
+            },
+            {
+              ""terms"": {
+                ""OcvSourceType.raw"": [
+                    ""In-Product Feedback"",
+                    ""Survey""
+                  ]
+                }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

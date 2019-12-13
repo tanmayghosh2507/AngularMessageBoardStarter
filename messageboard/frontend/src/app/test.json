@@ -1,0 +1,1029 @@
+{
+    "took": 302,
+    "timed_out": false,
+    "_shards": {
+        "total": 110,
+        "successful": 110,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": 38521712,
+        "max_score": 0.0,
+        "hits": []
+    },
+    "aggregations": {
+        "OcvSourceType.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "In-Product Feedback",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "LicenseYear": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "AlchemyIssues.LabelState.raw": {
+            "doc_count": 31,
+            "Unreviewed": {
+                "doc_count": 31
+            },
+            "Removed": {
+                "doc_count": 0
+            },
+            "Reviewed": {
+                "doc_count": 0
+            }
+        },
+        "StoreRating": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "ProjectedFork.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "AudienceGroup.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "ActionabilityScore.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Low",
+                        "doc_count": 13
+                    },
+                    {
+                        "key": "VeryLow",
+                        "doc_count": 8
+                    },
+                    {
+                        "key": "High",
+                        "doc_count": 7
+                    },
+                    {
+                        "key": "Medium",
+                        "doc_count": 3
+                    }
+                ]
+            }
+        },
+        "LicenseStatus.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "FeedbackOrigin.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "CustomerType.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Unknown",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "ResponseState.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "No Developer Response",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "OcvLanguage.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "English",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "PremierOffering.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "Browser.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "OcvIssues.LabelState.raw": {
+            "doc_count": 31,
+            "Unreviewed": {
+                "doc_count": 31
+            },
+            "Removed": {
+                "doc_count": 0
+            },
+            "Reviewed": {
+                "doc_count": 0
+            }
+        },
+        "LicenseType.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "Channel.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "TenantType": {
+            "doc_count": 31,
+            "Government": {
+                "doc_count": 0
+            },
+            "Education": {
+                "doc_count": 0
+            },
+            "S400": {
+                "doc_count": 0
+            },
+            "Charity": {
+                "doc_count": 0
+            }
+        },
+        "OcvAreas.IdPath": {
+            "doc_count": 31,
+            "30955bc6-d577-42ac-96c7-d36658f870a3": {
+                "doc_count": 0
+            },
+            "86a75bf9-ae3f-442f-98d7-26570edc2e3c": {
+                "doc_count": 0
+            },
+            "f6d52505-9d7d-4a27-bcbc-0a63cb5e993b": {
+                "doc_count": 0
+            },
+            "1a1bccc1-54a9-4c68-969d-741dc44b12fa": {
+                "doc_count": 0
+            },
+            "9cbd7013-f3c0-4c8c-9249-5ffef9b234e2": {
+                "doc_count": 0
+            },
+            "115": {
+                "doc_count": 0
+            },
+            "fbfb1b67-513b-4cd5-8052-5d57d4d02285": {
+                "doc_count": 0
+            },
+            "41bb22a1-ca3d-48c3-ac81-75a0f72c0cc8": {
+                "doc_count": 0
+            },
+            "6550400a-cdd9-41cf-8295-972743b89a04": {
+                "doc_count": 0
+            },
+            "c28306b9-f8a9-4e2e-930e-0964af1ece1b": {
+                "doc_count": 0
+            },
+            "095c403c-f457-4998-88b2-3e40549c1e7a": {
+                "doc_count": 0
+            },
+            "5ab18f88-70f5-46c2-9a96-ff5473975ee0": {
+                "doc_count": 0
+            },
+            "b7ce49e8-4cd4-44ca-b5d0-99007f8b88c6": {
+                "doc_count": 0
+            },
+            "954fdb25-fa2f-4a8e-b1ce-17eb78b6fcbe": {
+                "doc_count": 0
+            },
+            "046936ec-d2e3-4846-85e8-20d28c4f3fc5": {
+                "doc_count": 0
+            },
+            "d05042f5-2f1c-4265-9ec3-0f841359cee8": {
+                "doc_count": 0
+            },
+            "84af4de3-99e3-40a2-966d-b7aa392c4c98": {
+                "doc_count": 0
+            },
+            "72354ffe-4b91-424e-94c9-5cfee1b496eb": {
+                "doc_count": 0
+            },
+            "995b81ea-b71e-47e6-bf26-70b9f8cc7304": {
+                "doc_count": 0
+            },
+            "248ff9f2-a7b3-4609-9443-cd3f66718f0f": {
+                "doc_count": 0
+            },
+            "38168318-73b5-4802-b830-1cae82eb86f2": {
+                "doc_count": 0
+            },
+            "ea35576f-a53e-40ea-ba10-72f221bee6d9": {
+                "doc_count": 0
+            },
+            "85c51ec3-31f5-44eb-9ffa-915fb83cfc35": {
+                "doc_count": 0
+            },
+            "69e0e02e-1e0d-4532-a6f5-dfe60976f1a8": {
+                "doc_count": 0
+            },
+            "d4a57ead-63df-4622-a72b-22602fdeba49": {
+                "doc_count": 0
+            },
+            "2de0e2a6-0113-4c39-be0c-cac9d788bfbd": {
+                "doc_count": 0
+            },
+            "f1799649-52c7-4309-ab2c-41602905ae03": {
+                "doc_count": 0
+            },
+            "5a15b23b-17c2-42cc-aca1-af6cea970631": {
+                "doc_count": 0
+            },
+            "1e322747-3b3e-4394-a07e-ed3833f824af": {
+                "doc_count": 0
+            },
+            "926e69c6-6b86-44b0-a541-0335b744a303": {
+                "doc_count": 0
+            },
+            "47a7c13a-e1b2-425b-97ba-4b5c83d97ef5": {
+                "doc_count": 0
+            },
+            "772dd2fb-5148-43c1-afff-0463d18b8bb7": {
+                "doc_count": 0
+            },
+            "41f2c51e-1bd7-43f4-ac02-fa9ad821003b": {
+                "doc_count": 0
+            },
+            "fd438837-fab0-462f-a744-6472ade61707": {
+                "doc_count": 0
+            },
+            "32199461-2060-4442-bd3d-3b79f5f10dfa": {
+                "doc_count": 0
+            },
+            "f5239a3e-c71d-466f-8c75-13f159179dda": {
+                "doc_count": 0
+            },
+            "3cfe4d8d-be46-4267-bf83-444fdc9824ff": {
+                "doc_count": 0
+            },
+            "0a2fcb3e-d035-4f47-b6a9-2616354e14c0": {
+                "doc_count": 0
+            },
+            "b140371c-2ea9-4b60-a852-8cbc7310322d": {
+                "doc_count": 0
+            },
+            "e7385ece-3dd8-4a03-8956-dadf2bcd96cd": {
+                "doc_count": 0
+            },
+            "247f3cb9-a572-472d-b80b-cedd7dee99c5": {
+                "doc_count": 0
+            },
+            "eacd7a26-2d05-4cfe-bd4e-626f3340b3a9": {
+                "doc_count": 0
+            },
+            "79fe5050-b99b-4085-bf03-0dc002b55837": {
+                "doc_count": 0
+            },
+            "e3d362be-cf6d-4987-9ff6-abbcf8ee9f6f": {
+                "doc_count": 0
+            },
+            "40483fcc-a94c-4bc6-91f5-57fbd3140e65": {
+                "doc_count": 0
+            },
+            "24a6e403-a904-475e-9725-bef5a73218fc": {
+                "doc_count": 0
+            },
+            "662e467d-aca9-4a83-9827-1491ba066c64": {
+                "doc_count": 0
+            },
+            "852b9815-ae1f-46b0-8f9f-2e035edbc5a8": {
+                "doc_count": 0
+            },
+            "007f6288-eab6-43d8-8514-1255dad2f93c": {
+                "doc_count": 0
+            },
+            "b7c7a496-4630-4f10-b733-59d6a4423d9f": {
+                "doc_count": 0
+            },
+            "147": {
+                "doc_count": 0
+            },
+            "f0b71057-d31b-4f81-ae33-e343e2072b84": {
+                "doc_count": 0
+            },
+            "f19d0718-0138-4d5d-931a-87fa58385c68": {
+                "doc_count": 0
+            },
+            "45": {
+                "doc_count": 0
+            },
+            "82c14ffc-5d97-4961-aaa1-041d725b585d": {
+                "doc_count": 0
+            },
+            "6d545e5b-0429-4ad8-8c20-5e370683c6fa": {
+                "doc_count": 0
+            },
+            "88f1c9d2-0d72-44ad-8a55-5426db5c7d3d": {
+                "doc_count": 0
+            },
+            "f5a25b1a-f0f1-437a-8697-be7efa519ce7": {
+                "doc_count": 0
+            },
+            "c5d11c7b-630f-4721-9ec1-89dcd11b69c4": {
+                "doc_count": 0
+            },
+            "89b098aa-b2f7-4542-bdd9-05cf499a0007": {
+                "doc_count": 0
+            },
+            "3723636e-251a-44f2-9ce7-ae9993492e52": {
+                "doc_count": 0
+            },
+            "bc36adec-9b68-493f-9b95-ce439b24b519": {
+                "doc_count": 0
+            },
+            "32bd77ed-dea3-4ad9-ac75-e26d030efb87": {
+                "doc_count": 0
+            },
+            "86583fb9-0be4-4804-aa56-8d52fbcad748": {
+                "doc_count": 0
+            },
+            "0f3d6f09-371b-4665-a1dd-cfc1cb83dee1": {
+                "doc_count": 0
+            },
+            "107f81d3-54a1-4a0b-97ef-9837e6627684": {
+                "doc_count": 0
+            },
+            "9af7559e-f830-422c-88d4-5acad21287e7": {
+                "doc_count": 0
+            },
+            "13cc8315-292e-4c6b-a6ed-12e5ff9f9a35": {
+                "doc_count": 0
+            },
+            "9fa832b2-ee7e-426e-a1e7-965446787234": {
+                "doc_count": 0
+            },
+            "606ae026-b6ac-4fc0-b958-b6ff7d10fd6b": {
+                "doc_count": 0
+            },
+            "e3711e2e-47dd-4497-8877-d7f39e2d1c8a": {
+                "doc_count": 0
+            },
+            "a3344f88-4379-423c-ae2c-5ce3f861492f": {
+                "doc_count": 0
+            },
+            "3e4df0a3-1a45-4fc3-8e1c-0e066c7e6924": {
+                "doc_count": 0
+            },
+            "9681b65e-f0a1-429d-90a8-90e5862bf2d3": {
+                "doc_count": 0
+            },
+            "6b16c79e-a81e-4a6c-99bc-22787d86f19d": {
+                "doc_count": 0
+            },
+            "35e0ac22-5b3d-47f6-bb47-205b619e2283": {
+                "doc_count": 0
+            },
+            "b0d494d8-32a8-4d76-aa5e-567895dcdbea": {
+                "doc_count": 0
+            },
+            "12f0b5fe-93df-43bc-ab65-a4e285c0f94b": {
+                "doc_count": 0
+            },
+            "5dd895e9-9e70-493a-b523-375466ef933f": {
+                "doc_count": 0
+            },
+            "587563b7-62f5-4dd7-b16d-0c58e70aa2e3": {
+                "doc_count": 0
+            },
+            "e4093bbc-d4b3-4c04-872a-9c5fdfa59623": {
+                "doc_count": 0
+            },
+            "f9a5af43-84c2-4f0b-a5a6-cdb85506d13d": {
+                "doc_count": 0
+            },
+            "97546536-08c2-42e1-878f-7bbbb8f6358d": {
+                "doc_count": 0
+            },
+            "101e6abf-8731-45bb-a957-f9f5d13c4d12": {
+                "doc_count": 0
+            },
+            "408de993-4370-427f-afad-4c5604dc07f7": {
+                "doc_count": 0
+            },
+            "936e9ac3-ffff-4d10-949a-4d68ae636087": {
+                "doc_count": 0
+            },
+            "17cff0cd-d0b5-4107-97d4-6d459676c134": {
+                "doc_count": 0
+            },
+            "4cff6aaa-af65-45bb-bbc1-55ac44367952": {
+                "doc_count": 0
+            },
+            "b38d9ba1-fa85-492d-b823-07ee371bcf6e": {
+                "doc_count": 0
+            },
+            "179": {
+                "doc_count": 0
+            },
+            "fb891ab2-f255-4473-a0c8-7ff65f8a41b1": {
+                "doc_count": 0
+            },
+            "517c9368-77b4-425a-b845-e7e7728c8fb8": {
+                "doc_count": 0
+            },
+            "f6788dfb-4bb8-4f1c-ae35-6ae7c0c6f3ad": {
+                "doc_count": 0
+            },
+            "de3a645b-585e-41e5-aa72-08eded0a2d54": {
+                "doc_count": 0
+            },
+            "162f2d0f-ffde-4c52-8c9f-276c7eb434b5": {
+                "doc_count": 0
+            },
+            "0cba6918-4d48-4ce9-a3e6-8025aeca6d42": {
+                "doc_count": 0
+            },
+            "85fb23dd-ad08-4b83-8111-0cc6e026306f": {
+                "doc_count": 0
+            },
+            "96da89f7-94f2-4aa0-a513-39b9b91a2606": {
+                "doc_count": 0
+            },
+            "e3e5e248-cccd-4524-b802-1062a2f28e3f": {
+                "doc_count": 0
+            },
+            "3b0871a6-ca1a-422f-89ab-1ab975f404ed": {
+                "doc_count": 0
+            },
+            "a4d34989-c1c1-4ffe-a5f7-d61ee9557cda": {
+                "doc_count": 0
+            },
+            "a405bbec-6e0f-4f8d-b4a0-9aa69a5f2c9f": {
+                "doc_count": 0
+            },
+            "39de4bbf-fe7d-42c8-9740-f84a22de3db3": {
+                "doc_count": 0
+            },
+            "611c4310-3f1d-48a7-8d7b-12a606a50f91": {
+                "doc_count": 0
+            },
+            "db638e17-9362-4f48-82d2-a34fa0d51528": {
+                "doc_count": 0
+            },
+            "07200b07-7015-48fe-8a7b-6eb506851118": {
+                "doc_count": 0
+            },
+            "82": {
+                "doc_count": 0
+            },
+            "81d0caa7-8953-4752-a288-a9ef4591d3e3": {
+                "doc_count": 0
+            },
+            "f89d085b-ed78-4e84-ad3c-d3403e25869a": {
+                "doc_count": 0
+            },
+            "1ab70f21-fedd-4e4a-b167-514d52bcadfb": {
+                "doc_count": 0
+            },
+            "0605cc56-c4fa-4ccc-ab4f-fc6ba4d3cba9": {
+                "doc_count": 0
+            },
+            "3918e208-3460-4219-860b-c771abebd520": {
+                "doc_count": 0
+            },
+            "63d32b2d-855a-413a-9754-0c449a5e6663": {
+                "doc_count": 0
+            },
+            "190d63ff-ad38-45dc-b44d-18ffaf9df134": {
+                "doc_count": 0
+            },
+            "d0b0cc49-eec6-4236-a656-83a904b10942": {
+                "doc_count": 0
+            },
+            "3e4004e1-f7ef-48e1-9f15-dc3de66d5f6b": {
+                "doc_count": 0
+            },
+            "8150883b-85bd-41d3-ac4a-01d6ea254c3c": {
+                "doc_count": 0
+            },
+            "39b7dbf1-3ad5-4f46-ac0c-0f6fae934599": {
+                "doc_count": 0
+            },
+            "65aff739-616e-4de4-9001-9ea662eb7b89": {
+                "doc_count": 0
+            },
+            "b9ed1c2e-8e82-457e-800b-20749bf3e0cb": {
+                "doc_count": 0
+            },
+            "0d4c50fb-7efc-41c1-be9b-02d6324b18f8": {
+                "doc_count": 31
+            },
+            "777a16b1-6597-4a62-9871-ed7d2e4b230a": {
+                "doc_count": 0
+            },
+            "353627a5-c013-4ee0-9c48-9382c9a149ee": {
+                "doc_count": 0
+            },
+            "46dc26a5-938f-4881-9c81-e5ebee47e80c": {
+                "doc_count": 0
+            },
+            "a8d46240-0d2a-4a4c-9758-ca536d5d1f25": {
+                "doc_count": 0
+            },
+            "3d5535ca-7e0c-412e-b37b-b32b563a141d": {
+                "doc_count": 0
+            },
+            "b917fb8b-d517-4622-814b-60ad09b857fd": {
+                "doc_count": 0
+            },
+            "ea914b0b-9e89-450b-947d-cfb473eebc5f": {
+                "doc_count": 0
+            },
+            "b7bf7d7f-b505-4fb0-84b3-f3a933340c5f": {
+                "doc_count": 0
+            },
+            "8bb00fba-409c-4bb9-a31e-392486ee2604": {
+                "doc_count": 0
+            },
+            "5ec76e29-2bbb-4436-9a5e-ff207040b16e": {
+                "doc_count": 0
+            },
+            "ef00cfed-ac5f-495c-b85e-417b3a8bd021": {
+                "doc_count": 0
+            },
+            "032c0660-4ac2-41a0-9838-99eb2f01d581": {
+                "doc_count": 0
+            },
+            "b3fcd1fd-c9f2-43b9-aea2-e8ba432b414f": {
+                "doc_count": 0
+            },
+            "f322215a-c4e4-4259-85f4-e294a0a0607b": {
+                "doc_count": 0
+            },
+            "411": {
+                "doc_count": 0
+            },
+            "412": {
+                "doc_count": 0
+            },
+            "36358a23-e7a9-4ffe-b678-6d786b2aad2f": {
+                "doc_count": 0
+            },
+            "413": {
+                "doc_count": 0
+            },
+            "414": {
+                "doc_count": 0
+            },
+            "415": {
+                "doc_count": 0
+            },
+            "22f8ed6e-cd29-4771-838a-08a8625b7880": {
+                "doc_count": 0
+            },
+            "416": {
+                "doc_count": 0
+            },
+            "417": {
+                "doc_count": 0
+            },
+            "418": {
+                "doc_count": 0
+            },
+            "419": {
+                "doc_count": 0
+            },
+            "0764f409-1e0a-446c-94d2-7c85b6d2ad16": {
+                "doc_count": 0
+            },
+            "5cb303d1-3b2b-4396-9d43-56a53c43ff99": {
+                "doc_count": 0
+            },
+            "5e6d82e9-d380-4513-93ad-3073170befbd": {
+                "doc_count": 0
+            },
+            "7632d0d6-0da1-485d-8ce6-ee96622cfd9e": {
+                "doc_count": 0
+            },
+            "f3896ce4-fe75-4421-a9c2-d8227dde88d4": {
+                "doc_count": 0
+            },
+            "100203e1-2d74-4871-93f8-8483d34cbb33": {
+                "doc_count": 0
+            },
+            "bc1ca1c5-f719-4f68-84ce-2748fdc869a1": {
+                "doc_count": 0
+            },
+            "b4e201f2-1529-4a63-a0db-af80254a05cc": {
+                "doc_count": 0
+            },
+            "9933f3bf-b6f4-4cda-af17-0488087de51b": {
+                "doc_count": 0
+            },
+            "8a582ba3-904d-4af1-83eb-1b5449573b8e": {
+                "doc_count": 0
+            },
+            "9b6a3941-17d0-46d8-bf71-6c01ad0c2257": {
+                "doc_count": 0
+            },
+            "8f0b2fd4-faac-4d64-aa12-11d1e203df23": {
+                "doc_count": 0
+            },
+            "29bae37e-fb26-495c-8011-fdc898667194": {
+                "doc_count": 0
+            },
+            "3c1be311-7289-4462-8e69-d655e35fd855": {
+                "doc_count": 0
+            },
+            "cff09a3b-8cf2-4ae6-b30a-cfda077fa493": {
+                "doc_count": 0
+            },
+            "421": {
+                "doc_count": 0
+            },
+            "422": {
+                "doc_count": 0
+            },
+            "c4ea82f5-958e-4227-9524-9e78c2afd492": {
+                "doc_count": 0
+            },
+            "ff1d5618-3985-4162-abc8-703c00fbab94": {
+                "doc_count": 0
+            },
+            "b97101e5-ad0b-413e-a399-fecb82a9a4d9": {
+                "doc_count": 0
+            },
+            "958f3de6-ab77-48e8-a793-7296325dd5dc": {
+                "doc_count": 0
+            },
+            "cd4d3370-b93e-4160-8f00-1c90e397baa4": {
+                "doc_count": 0
+            },
+            "04e9e803-cc0c-4faa-b818-d6b2b68b199e": {
+                "doc_count": 0
+            },
+            "d9c6a66b-f105-465c-9f4b-6a898e9ff7ed": {
+                "doc_count": 0
+            },
+            "62af5e29-0f60-430d-83b6-55e93d7df072": {
+                "doc_count": 0
+            },
+            "e16313ed-fbd2-4aab-aaf3-672e3d203c81": {
+                "doc_count": 0
+            },
+            "24622766-3e65-4da0-a8f8-f41ac18cd253": {
+                "doc_count": 0
+            },
+            "4d5c9159-4adb-43e5-9e9b-d5d187c7a1b9": {
+                "doc_count": 0
+            },
+            "324db0e1-ea9f-4d9b-bf1d-f5131c6add38": {
+                "doc_count": 0
+            },
+            "86cd49b8-2f3f-424b-8601-4f190aaa8175": {
+                "doc_count": 0
+            },
+            "154b7f9d-5c55-4436-a667-b7e4cc104bfc": {
+                "doc_count": 0
+            },
+            "551": {
+                "doc_count": 0
+            },
+            "552": {
+                "doc_count": 0
+            },
+            "553": {
+                "doc_count": 0
+            },
+            "554": {
+                "doc_count": 0
+            },
+            "555": {
+                "doc_count": 0
+            },
+            "556": {
+                "doc_count": 0
+            },
+            "558": {
+                "doc_count": 0
+            },
+            "3c026938-a346-431f-8ac0-a1cc694e7691": {
+                "doc_count": 0
+            },
+            "4ee2d64f-f7c0-45c1-8465-a74f84f199f7": {
+                "doc_count": 0
+            },
+            "559": {
+                "doc_count": 0
+            },
+            "67506dbc-cfe8-47ea-93f0-8a6c94ab56bc": {
+                "doc_count": 0
+            },
+            "ff880953-df48-437c-9aed-af7d619a62e7": {
+                "doc_count": 0
+            },
+            "1020f0f3-959f-4da2-a5b4-b06a714df88e": {
+                "doc_count": 0
+            },
+            "443b1a92-c60d-40bf-be06-593189acab26": {
+                "doc_count": 0
+            },
+            "109c8364-1980-4e39-ac3e-cb67492d5423": {
+                "doc_count": 0
+            },
+            "a3bc4952-a0c7-4bbd-88f6-b358c3d37e64": {
+                "doc_count": 0
+            },
+            "3072766c-4b07-4e83-b86e-628470d4bc10": {
+                "doc_count": 0
+            },
+            "2f4ccf9e-7b40-4b15-8db6-3f20e7f89299": {
+                "doc_count": 0
+            },
+            "937ebbaf-9a8b-49fd-a50b-eab2929cb331": {
+                "doc_count": 0
+            },
+            "333c573a-26ed-47d6-b590-b158ecc770eb": {
+                "doc_count": 0
+            },
+            "560": {
+                "doc_count": 0
+            },
+            "561": {
+                "doc_count": 0
+            },
+            "562": {
+                "doc_count": 0
+            },
+            "563": {
+                "doc_count": 0
+            },
+            "4d6908d0-8a56-4b2f-ac1c-ba4d3f03933c": {
+                "doc_count": 0
+            },
+            "564": {
+                "doc_count": 0
+            },
+            "565": {
+                "doc_count": 0
+            },
+            "1c946188-2706-4540-b0c7-a329c7a78a4c": {
+                "doc_count": 0
+            },
+            "566": {
+                "doc_count": 0
+            },
+            "1ee97437-99d2-4012-b098-3f1dbe27b624": {
+                "doc_count": 0
+            },
+            "567": {
+                "doc_count": 0
+            },
+            "73c0d67c-a4f5-4a06-bcd2-de853bdcff46": {
+                "doc_count": 0
+            },
+            "568": {
+                "doc_count": 0
+            },
+            "15068366-062a-40a0-a7af-e72c391de253": {
+                "doc_count": 0
+            },
+            "cf5f4207-9c1c-4360-904d-01547d7f27e0": {
+                "doc_count": 0
+            },
+            "a290be48cc9f41bcaa552d7b4a4be650": {
+                "doc_count": 0
+            },
+            "f3b96b09-b6d4-42de-a5f6-18d9fbea57f4": {
+                "doc_count": 0
+            },
+            "e2c1c6b2-837e-4e02-a23c-6ae2963b4e30": {
+                "doc_count": 0
+            },
+            "ce116061-b353-45bb-b880-8b7114c7e730": {
+                "doc_count": 0
+            },
+            "258277dd-4280-4016-9eb3-b8909923f6b8": {
+                "doc_count": 0
+            },
+            "59427cd1-14c6-4854-9537-8ba3719e89c7": {
+                "doc_count": 0
+            },
+            "9592722f-6671-4cf3-9ce5-f523380a89d9": {
+                "doc_count": 0
+            },
+            "2d673aec-76d9-4ee6-a892-ef82c5bce87a": {
+                "doc_count": 0
+            },
+            "e50e77ba-d17a-4b15-bf38-ee7df3ec684d": {
+                "doc_count": 0
+            },
+            "f9c03027-8c24-4c1e-a386-64a791db63ed": {
+                "doc_count": 0
+            },
+            "2650371d-4f23-4e80-be03-270bd34fe27f": {
+                "doc_count": 0
+            },
+            "0f419106-abcc-44a6-8a8e-30862e946a54": {
+                "doc_count": 0
+            },
+            "679e5cdd-3c9b-4f9c-b52d-3238fbf59f41": {
+                "doc_count": 0
+            },
+            "f4c3351a-1a60-47b4-8963-d5a590e2344a": {
+                "doc_count": 0
+            },
+            "b9eea483-bca1-4c04-b17d-ffcd66abd528": {
+                "doc_count": 0
+            },
+            "c1611418-5fe4-46dc-b9ea-df1249a1519b": {
+                "doc_count": 0
+            },
+            "907cf3d3-d13a-4afe-804f-2d4a9a09fa12": {
+                "doc_count": 0
+            },
+            "7e875d4b-7d0d-41c1-9460-b208e5c84c19": {
+                "doc_count": 0
+            },
+            "589803a6-f88d-47c7-8870-927fef116ae8": {
+                "doc_count": 0
+            },
+            "eec473c2-2621-4614-9233-2044f6a1d65e": {
+                "doc_count": 0
+            },
+            "bd9649a4-bd82-4423-a468-6dd0a419944c": {
+                "doc_count": 0
+            },
+            "d96ef68b-be7c-48ab-87a1-504c0df415f9": {
+                "doc_count": 0
+            },
+            "31b26f36-c0cd-49e6-b32f-5dd2f93eb21b": {
+                "doc_count": 0
+            },
+            "5bb36d27-61b6-4ee8-9380-259f65de0d67": {
+                "doc_count": 0
+            },
+            "a4772f51-fc7c-433a-ac8c-6b48ec946065": {
+                "doc_count": 0
+            },
+            "ced7fdc8-cae4-441d-8571-eac4a6219cb4": {
+                "doc_count": 0
+            },
+            "6217c5fd-e5ed-4499-9677-d699ae0a72e7": {
+                "doc_count": 0
+            },
+            "edf77395-535b-479d-aaa6-95e2d97494ea": {
+                "doc_count": 0
+            },
+            "6a1036da-751f-4ef1-85b7-52ea99c1586e": {
+                "doc_count": 0
+            },
+            "97f61eb3-65ff-4712-b9eb-9fa90e89ab95": {
+                "doc_count": 0
+            },
+            "9643fb7e-efa2-45e3-86eb-fa75aca05bda": {
+                "doc_count": 0
+            },
+            "57406094-9985-4c75-8f97-822b60303164": {
+                "doc_count": 0
+            },
+            "2c9f60aa-0463-4a25-811b-f8362258b789": {
+                "doc_count": 0
+            }
+        },
+        "Platform.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Web",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "SurveyRating": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "OcvSource.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Send-A-Smile",
+                        "doc_count": 31
+                    }
+                ]
+            }
+        },
+        "InstallType.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": []
+            }
+        },
+        "FeedbackType.raw": {
+            "doc_count": 31,
+            "filtered": {
+                "doc_count_error_upper_bound": 0,
+                "sum_other_doc_count": 0,
+                "buckets": [
+                    {
+                        "key": "Smile",
+                        "doc_count": 27
+                    },
+                    {
+                        "key": "Frown",
+                        "doc_count": 2
+                    },
+                    {
+                        "key": "Idea",
+                        "doc_count": 2
+                    }
+                ]
+            }
+        },
+        "OcvAreas.LabelState.raw": {
+            "doc_count": 31,
+            "Non-Actionable": {
+                "doc_count": 20
+            },
+            "Investigating": {
+                "doc_count": 0
+            },
+            "Unreviewed": {
+                "doc_count": 11
+            },
+            "Reviewed": {
+                "doc_count": 0
+            }
+        }
+    }
+}

@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class WebService {
-    BASE_URL = 'http://localhost:62659/api/';
+    BASE_URL = 'http://localhost:62660/api/';
     constructor(private httpClient: HttpClient) {
 
     }
