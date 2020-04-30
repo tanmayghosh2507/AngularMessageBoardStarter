@@ -4,3 +4,5 @@ messageboard/backend/obj/
 AngularNetCoreSampleApp/obj/
 AngularNetCoreSampleApp/bin/
 *.vs/
+.vscode/
+package-lock.json
